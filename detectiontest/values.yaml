@@ -6,7 +6,7 @@ replicaCount: 1
 
 #modified here
 image:
-  repository: detectiontest
+  repository: mec-repo:5000/mec-app-detectiontest
   tag: latest
   pullPolicy: Always
 
