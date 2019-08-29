@@ -27,7 +27,11 @@ spec:
             - name: http
               containerPort: 80
               protocol: TCP
+<<<<<<< HEAD
          
+=======
+       
+>>>>>>> branch 'master' of https://github.com/gitjjh/detectiontest.git
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
       {{- with .Values.nodeSelector }}
