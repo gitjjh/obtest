@@ -1,7 +1,7 @@
 '''Setup script for object_detection with webrtc'''
 
-#from setuptools import find_packages
-#from setuptools import setup
+from setuptools import find_packages
+from setuptools import setup
 
 
 REQUIRED_PACKAGES = ['Pillow>=1.0', 'Flask', 'tensorflow', 'six', 'matplotlib']
