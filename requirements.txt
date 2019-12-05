@@ -3,6 +3,7 @@ Pillow>=1.0
 #Pillow
 Flask
 tensorflow==1.12.2
-#tensorflow
+protobuf>=3.6.1
+setuptools>=36
 six
 matplotlib==1.5.3
