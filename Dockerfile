@@ -15,7 +15,7 @@ ADD . /root/detection/
 #RUN pip install --upgrade pip
 #RUN pip install -r requirements.txt
 
-EXPOSE 5000
+EXPOSE 31200
 
 # ENTRYPOINT ["python"]
 CMD ["python", "app.py"]
