@@ -16,7 +16,7 @@ spec:
   template:
     metadata:
       annotations:
-        service-profile:  {{ .Values.service-profile }}# edited J
+        service-profile:  {{ .Values.serviceProfile }}# edited J
       labels:
         app.kubernetes.io/name: {{ include "detectiontest.name" . }}
         app.kubernetes.io/instance: {{ .Release.Name }}
