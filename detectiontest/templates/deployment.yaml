@@ -15,10 +15,13 @@ spec:
       app.kubernetes.io/instance: {{ .Release.Name }}
   template:
     metadata:
+      annotations:
+        service-profile:  {{ .Values.service-profile }}# edited J
       labels:
         app.kubernetes.io/name: {{ include "detectiontest.name" . }}
         app.kubernetes.io/instance: {{ .Release.Name }}
     spec:
+      schedulerName: {{ .Values.schedulerName  }} #edited J
       containers:
         - name: {{ .Chart.Name }}
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
