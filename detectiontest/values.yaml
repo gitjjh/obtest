@@ -48,3 +48,6 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+
+serviceProfile: video-stream # edited J
+schedulerName: crane-video-stream  #edited J
