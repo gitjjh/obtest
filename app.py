@@ -16,7 +16,7 @@ def after_request(response):
 
 @app.route('/')
 def index():
-    return Response('ETRI Object Detection Test 2019.12.04 #11')
+    return Response('ETRI Object Detection Test 2019.12.05 #1')
 
 
 @app.route('/local')
