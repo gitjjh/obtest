@@ -1,4 +1,4 @@
-FROM        j093/pre-install-py27
+FROM        j093/pre-install-py27:latest
 #MAINTAINER  jeon
 
 #RUN yum -y update
