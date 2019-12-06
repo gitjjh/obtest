@@ -10,9 +10,9 @@ REQUIRED_PACKAGES = ['numpy']
 setup(
     name='webrtc_object_detection',
     version='0.1',
-    #install_requires=REQUIRED_PACKAGES,
-    #include_package_data=True,
-    #packages=[p for p in find_packages()],
+    install_requires=REQUIRED_PACKAGES,
+    include_package_data=True,
+    packages=[p for p in find_packages()],
     description='Tensorflow Object Detection with WebRTC',
 )
 
