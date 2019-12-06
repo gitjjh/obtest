@@ -7,5 +7,5 @@ tensorflow==1.12.2
 protobuf>=3.6.1
 setuptools>=36
 six
-matplotlib>=1.5.3
-subprocess32
+matplotlib==1.5.3
+
