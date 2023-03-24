@@ -2,7 +2,7 @@ numpy
 Pillow>=1.0
 #Pillow
 Flask
-tensorflow==1.12.2
+tensorflow==2.11.1
 #tensorflow==1.4.0
 protobuf>=3.6.1
 setuptools>=36
